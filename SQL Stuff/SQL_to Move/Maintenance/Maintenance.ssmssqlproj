@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Maintenance">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="LDSQ1B:dba\hollingsa">
+          <Created>2012-12-27T11:35:44.3647279+00:00</Created>
+          <Type>SQL</Type>
+          <Server>LDSQ1B</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Fragmentation_Report.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Fragmentation_Report.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Index List.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Index List.sql</FullPath>
+        </FileNode>
+        <FileNode Name="List All_Indexs For Rebuild In On DB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>List All_Indexs For Rebuild In On DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="List Processes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>List Processes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="List_All_DB_Indexs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>List_All_DB_Indexs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Optimize_ais_agents.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Optimize_ais_agents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PiivotSLQwaits.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PiivotSLQwaits.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Rebuild_All_DB_Indexs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Rebuild_All_DB_Indexs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SystemAdminDelete.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SystemAdminDelete.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SystemAdminDelete_Tuning.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SystemAdminDelete_Tuning.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Trace Login Errors.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Trace Login Errors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Trace Login Errors2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Trace Login Errors2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Change SQL Agent Ower to SA.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Change SQL Agent Ower to SA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Compare_Fragmentation_Reports.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Compare_Fragmentation_Reports.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Compare_Index_stats.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Compare_Index_stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Delete_Backup_History.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Delete_Backup_History.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Find_DBS_not_Backing_Up.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Find_DBS_not_Backing_Up.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Find_Heaps.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Find_Heaps.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Find_UnUsed_Indexes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Find_UnUsed_Indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Fix_VLFs_All_Databases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Fix_VLFs_All_Databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Index_List_With_Counts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Index_List_With_Counts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Large_Log_File_Checker.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Large_Log_File_Checker.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Latch_Wait_Report.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Latch_Wait_Report.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_List Log files Greater 500mb.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_List Log files Greater 500mb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_List_All_DB_Indexs_For_Rebuild_All_DB's2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_List_All_DB_Indexs_For_Rebuild_All_DB's2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_List_DB_Uages_Remaining_Space.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LDSQ1B:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LDSQ1B</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_List_DB_Uages_Remaining_Space.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_List_Disabled_Foreign_Keys.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_List_Disabled_Foreign_Keys.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_List_VLFs_All_Databases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_List_VLFs_All_Databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Log_Reader.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Log_Reader.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_PiivotSQLwaits.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_PiivotSQLwaits.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Rebuild_All_DB_Indexs2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Rebuild_All_DB_Indexs2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Rebuild_and Reorg_All_DB_Indexs2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Rebuild_and Reorg_All_DB_Indexs2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Recomend_Indexs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Recomend_Indexs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Set_CRM_Data_File_Growth_Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Set_CRM_Data_File_Growth_Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Set_CRM_Log_File_Growth_Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Set_CRM_Log_File_Growth_Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Set_Data_File_Growth_Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Set_Data_File_Growth_Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Set_Historical_Data_File_Growth_Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Set_Historical_Data_File_Growth_Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Set_Historical_Log_File_Growth_Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Set_Historical_Log_File_Growth_Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Set_Log_File_Growth_Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Set_Log_File_Growth_Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Set_Recording_Data_File_Growth_Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Set_Recording_Data_File_Growth_Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Set_Recording_Log_File_Growth_Policy.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Set_Recording_Log_File_Growth_Policy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Shrink_ALL_LOGS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Shrink_ALL_LOGS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Spinlock_Report.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Spinlock_Report.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_Stuborn_Rebuild_All_DB_Indexs2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_Stuborn_Rebuild_All_DB_Indexs2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_SystemAdminDeletebig.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_SystemAdminDeletebig.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_systemadmin_DateDiff.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>_systemadmin_DateDiff.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -1,0 +1,1 @@
+SELECT d.name, m.mirroring_role_desc, m.mirroring_state_desc FROM sys.database_mirroring m JOIN sys.databases d ON m.database_id = d.database_id WHERE mirroring_state_desc IS NOT NULL
